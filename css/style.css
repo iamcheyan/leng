@@ -1,0 +1,64 @@
+@charset "utf-8";
+body { color: #333; background: #fff; -webkit-text-size-adjust:none; overflow-x:hidden}
+a:hover { text-decoration: underline }
+abbr,
+acronym { border: 0; font-variant: normal }
+address,caption,cite,code,dfn,em,th,var { font-style: normal; font-weight: 500 }
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,iframe { display: block }
+audio,canvas,video { display: inline-block; *display: inline; *zoom: 1 }
+body .fn-hide { display: none }
+body,button,input,select,textarea { font: 12px/1.5 tahoma,arial,\5b8b\4f53 }
+body { font-family:Helvetica, Arial,\5b8b\4f53}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,che { margin: 0; padding: 0 }
+caption,
+th { text-align: left }
+del { text-decoration: line-through }
+fieldset,
+img { border: 0 }
+h1,h2,h3,h4,h5,h6 { font-size: 100%; font-weight: 500 }
+input,
+select,
+textarea { font-size: 100% }
+ins,
+a { text-decoration: none}
+ol,
+ul { list-style: none }
+q:before,
+q:after { content: '' }
+sub { bottom: -0.25em }
+sub,
+sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline }
+sup { top: -0.5em }
+table { border-collapse: collapse; border-spacing: 0 }
+th { text-align: inherit }
+body a { color:#666}
+body a:hover,
+.ui-red { color:#ac4000;
+-webkit-transition-property:color;
+-o-transition-property:color;
+-moz-transition-property:color;
+-webkit-transition-duration:.3s;
+-o-transition-duration:.3s;
+-moz-transition-duration:.3s;}}
+.fn-clear { zoom: 1 }
+.fn-clear:after { clear: both; display: block; font-size: 0; content: " "; visibility: hidden; height: 0 }
+.fn-left { float: left }
+.fn-left,
+.fn-right { display: inline }
+.fn-right { float: right }
+.fn-ov { overflow:hidden; _zoom:1}
+.fn-tcenter { text-align:center}
+/* .text */
+textarea.text,
+input.text { border:1px solid #ccc; height:25px; line-height:25px; margin-bottom:5px; padding:0 4px; font-size:12px; font-family:Georgia}
+textarea.text { height:160px; max-height:160px; min-height:160px; width:580px; max-width:580px; min-width:580px; padding:8px 4px; color:#3c3c3c; overflow: auto; overflow-x:hidden; line-height:18px}
+/* leng */
+leng { margin: 0 auto; display: block; padding:100px 0; position:relative;}
+leng header { position:absolute; left:80px; top:35px; text-align:right }
+leng header h1 { font-size: 300%}
+leng header nav { padding-top: 10px}
+leng header nav li { text-transform: uppercase}
+leng section.content { position:relative;left:100px }
+leng section.content ul.con-list { margin: 0 auto; }
+leng section.content ul.con-list li { padding:5px 6px}
+leng section.content ul li img { width: 220px}
